@@ -22,7 +22,8 @@
       show-if-above
       :width="200"
       :breakpoint="400"
-
+      elevated
+      behavior="mobile"
     >
       <q-scroll-area style="height: calc(100% - 150px); margin-top: 150px; border-right: 1px solid #ddd">
         <q-list padding>
@@ -36,7 +37,6 @@
             </q-item-section>
           </q-item>
 
-<!--
           <q-item to="/info" exact clickable v-ripple>
             <q-item-section avatar>
               <q-icon name="info"/>
@@ -46,7 +46,26 @@
               Über
             </q-item-section>
           </q-item>
--->
+
+          <q-item  exact clickable v-ripple>
+            <q-item-section avatar>
+              <q-icon name="business"/>
+            </q-item-section>
+
+            <q-item-section>
+              <a href="https://impressum.gruessung.eu/88ed3a49d06b633391c91029be7f0659.html" target="_blank" class="text-black" style="text-decoration: none;">Impressum</a>
+            </q-item-section>
+          </q-item>
+          <q-item  exact clickable v-ripple>
+            <q-item-section avatar>
+              <q-icon name="apps"/>
+            </q-item-section>
+
+            <q-item-section>
+              <a href="https://impressum.gruessung.eu/88ed3a49d06b633391c91029be7f0659/1.html" target="_blank" class="text-black" style="text-decoration: none;">Datenschutz</a>
+            </q-item-section>
+          </q-item>
+
         </q-list>
       </q-scroll-area>
 
