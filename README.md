@@ -2,6 +2,8 @@
 
 Eine Übersicht der Parkhäuser in der Stadt Erfurt
 
+**!! Change links to your imprint and privacy in layouts/MainLayout.vue !!**
+
 ## Install the dependencies
 ```bash
 npm install
