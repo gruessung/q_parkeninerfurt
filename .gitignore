@@ -31,3 +31,9 @@ yarn-error.log*
 *.ntvs*
 *.njsproj
 *.sln
+/keystoreGVisions
+/build.cordova.json
+/src-cordova/
+/src-electron/
+/app-splashscreen.png
+/package-lock.json

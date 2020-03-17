@@ -53,11 +53,14 @@ export default {
       this.$axios.get('https://api.gruessung.eu/parken/output.php')
         .then(function (result) {
           result.data.forEach((parkhaus, index) => {
-            if (parkhaus.frei >= 80) {
+
+            let iProzent = (100*parkhaus.frei) / parkhaus.gesamt;
+
+            if (iProzent >= 50) {
               result.data[index].cssClass = 'bg-green-1';
-            } else if (parkhaus.frei < 80) {
+            } else if (iProzent < 50) {
               result.data[index].cssClass = 'bg-yellow-1';
-            } else if (parkhaus.frei < 50) {
+            } else if (iProzent < 20) {
               result.data[index].cssClass = 'bg-red-1';
             }
 
