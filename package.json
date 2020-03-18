@@ -1,6 +1,6 @@
 {
   "name": "quasar-parkeninerfurt",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "Eine Übersicht der Parkhäuser in der Stadt Erfurt",
   "productName": "Parken in Erfurt",
   "cordovaId": "de.gvisions.parkeninerfurt",
