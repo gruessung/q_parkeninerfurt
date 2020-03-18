@@ -33,7 +33,5 @@ yarn-error.log*
 *.sln
 /keystoreGVisions
 /build.cordova.json
-/src-cordova/
-/src-electron/
 /app-splashscreen.png
 /package-lock.json
