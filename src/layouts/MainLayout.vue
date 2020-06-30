@@ -70,7 +70,7 @@
             </q-item-section>
 
             <q-item-section>
-              <a href="https://impressum.gruessung.eu/88ed3a49d06b633391c91029be7f0659.html" target="_blank" class="text-black" style="text-decoration: none;">Impressum</a>
+              <a href="https://impressum.gruessung.eu/88ed3a49d06b633391c91029be7f0659.html" rel="noopener noreferrer" target="_blank" class="text-black" style="text-decoration: none;">Impressum</a>
             </q-item-section>
           </q-item>
           <q-item v-if="$q.platform.is.desktop" exact clickable v-ripple>
@@ -79,7 +79,7 @@
             </q-item-section>
 
             <q-item-section>
-              <a href="https://impressum.gruessung.eu/88ed3a49d06b633391c91029be7f0659/1.html" target="_blank" class="text-black" style="text-decoration: none;">Datenschutz</a>
+              <a href="https://impressum.gruessung.eu/88ed3a49d06b633391c91029be7f0659/1.html" rel="noopener noreferrer" target="_blank" class="text-black" style="text-decoration: none;">Datenschutz</a>
             </q-item-section>
           </q-item>
 
